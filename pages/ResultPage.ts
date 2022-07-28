@@ -1,17 +1,23 @@
+import { resultImage, resultSubscribe, resultRating, checkButton, resultOfRandom } from "../locators/locators";
+
 export class ResultPage {
     static get result() {
-        return '[alt="Игра престолов (Game of Thrones)"]';
+        return resultImage;
     }
+
     static get subscribe() {
-        return '[data-tid="a2e1f6ab"]';
+        return resultSubscribe;
     }
+
     static get text() {
-        return 'div.styles_listPosition__zA9OU';
+        return resultRating;
     }
+
     static get resultOfButton() {
-        return '//div[contains(@class,"myBoardButton ")]//a[text()="Моя афиша"]';
+        return checkButton;
     }
+
     static get randomSearch() {
-        return 'input.button';
+        return resultOfRandom;
     }
 }

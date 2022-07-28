@@ -1,0 +1,11 @@
+export const gameOfThrones: string = '[name="kp_query"]';
+export const clickButton: string = '[href="/film/464963/sr/2/"]';
+export const linkToSubscribe: string = 'a.styles_root__OkfMY';
+export const topTenSeries: string = '[href="/film/571335/sr/2/"]';
+export const buyingTickets: string = '//h3[contains(@class,"film-page-section-title")]//a[text()="Билеты в кино"]';
+export const randomMovie: string = 'svg.search-form-submit-button__icon';
+export const resultImage: string = '[alt="Игра престолов (Game of Thrones)"]';
+export const resultSubscribe: string = '[data-tid="a2e1f6ab"]';
+export const resultRating: string = 'div.styles_listPosition__zA9OU';
+export const checkButton: string = '//div[contains(@class,"myBoardButton ")]//a[text()="Моя афиша"]';
+export const resultOfRandom: string = 'input.button';

@@ -19,11 +19,11 @@ describe("kinopoisk.ru testing", () => {
         const checkButton = await getWebElement(ResultPage.subscribe);
         await expect(await checkButton.isEnabled());
     });
-    it("Check getText", async () => {
+    it.only("Check getText", async () => {
         await (await getWebElement(MainPage.searchInput)).setValue("Бесстыжие");
         await (await getWebElement(MainPage.searchMovieLink)).click();
         const checkText = await (await getWebElement(ResultPage.text)).getText();
-        await expect(checkText).toContain("8 место");
+        await expect(checkText).toContain("место");
     });
     it("Check buying tickets", async () => {
         await (await getWebElement(MainPage.searchBuyingTickets)).click();
