@@ -1,6 +1,6 @@
 import {
     gameOfThrones, clickButton, linkToSubscribe, topTenSeries, buyingTickets, randomMovie,
-} from "../locators/locators";
+} from "../constants/locators";
 
 export class MainPage {
     static get searchInput(): string {

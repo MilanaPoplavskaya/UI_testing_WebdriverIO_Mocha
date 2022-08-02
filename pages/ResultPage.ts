@@ -1,4 +1,4 @@
-import { resultImage, resultSubscribe, resultRating, checkButton, resultOfRandom } from "../locators/locators";
+import { resultImage, resultSubscribe, resultRating, checkButton, resultOfRandom } from "../constants/locators";
 
 export class ResultPage {
     static get result() {
